@@ -1,0 +1,30 @@
+.Input {
+    width: 300px;
+    height: 50px;
+    margin-bottom: 15px;
+    background-color: #E6E6E6;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    transition: .3s all ease-out;
+    cursor: text;
+}
+
+.Input:hover {
+    box-shadow: 0px 0px 10px #B3B3B3;
+}
+
+.Input svg {
+    margin-right: 10px;
+}
+
+.Input input {
+    border: 0;
+    color: #666;
+    background-color: inherit;
+    font-size: 15px;
+    font-weight: 700;
+    outline: none;
+}

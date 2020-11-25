@@ -1,0 +1,126 @@
+[
+   {
+       "date" : "24/11/2020",
+       "terms" : [
+            {
+                "time" : "15:00 - 16:40",
+                "instructor" : "Aca",
+                "sport" : "Crossfit",
+                "exercises" : "EMOM 21' 1' 50 DU / 100 SU 2' 1 Power Clean 1 Front Squat 1 Push Press 1 Back Squat 1 Push Press 70/50 3' Rest",
+                "participants" : 15,
+                "reserved" : 0
+            },
+            {
+                "time" : "17:00 - 18:40",
+                "instructor" : "Aca",
+                "sport" : "Crossfit",
+                "exercises" : "EMOM 21' 1' 50 DU / 100 SU 2' 1 Power Clean 1 Front Squat 1 Push Press 1 Back Squat 1 Push Press 70/50 3' Rest",
+                "participants" : 20,
+                "reserved" : 0
+            },
+            {
+                "time" : "19:00 - 20:40",
+                "instructor" : "Aca",
+                "sport" : "Crossfit",
+                "exercises" : "EMOM 21' 1' 50 DU / 100 SU 2' 1 Power Clean 1 Front Squat 1 Push Press 1 Back Squat 1 Push Press 70/50 3' Rest",
+                "participants" : 18,
+                "reserved" : 0
+            },
+            {
+                "time" : "21:00 - 22:40",
+                "instructor" : "Aca",
+                "sport" : "Crossfit",
+                "exercises" : "EMOM 21' 1' 50 DU / 100 SU 2' 1 Power Clean 1 Front Squat 1 Push Press 1 Back Squat 1 Push Press 70/50 3' Rest",
+                "participants" : 15,
+                "reserved" : 15
+            }
+       ]
+   },
+   {
+       "date" : "25/11/2020",
+       "terms" : [
+            {
+                "time" : "12:00 - 14:10",
+                "instructor" : "Aca",
+                "sport" : "Crossfit",
+                "exercises" : "EMOM 21' 1' 50 DU / 100 SU 2' 1 Power Clean 1 Front Squat 1 Push Press 1 Back Squat 1 Push Press 70/50 3' Rest",
+                "participants" : 24,
+                "reserved" : 0
+            },
+            {
+                "time" : "15:00 - 17:10",
+                "instructor" : "Aca",
+                "sport" : "Crossfit",
+                "exercises" : "EMOM 21' 1' 50 DU / 100 SU 2' 1 Power Clean 1 Front Squat 1 Push Press 1 Back Squat 1 Push Press 70/50 3' Rest",
+                "participants" : 24,
+                "reserved" : 0
+            },
+            {
+                "time" : "18:00 - 20:10",
+                "instructor" : "Aca",
+                "sport" : "Crossfit",
+                "exercises" : "EMOM 21' 1' 50 DU / 100 SU 2' 1 Power Clean 1 Front Squat 1 Push Press 1 Back Squat 1 Push Press 70/50 3' Rest",
+                "participants" : 20,
+                "reserved" : 0
+            },
+            {
+                "time" : "22:00 - 23:00",
+                "instructor" : "Aca",
+                "sport" : "Crossfit",
+                "exercises" : "EMOM 21' 1' 50 DU / 100 SU 2' 1 Power Clean 1 Front Squat 1 Push Press 1 Back Squat 1 Push Press 70/50 3' Rest",
+                "participants" : 20,
+                "reserved" : 0
+            }
+       ]
+    },
+    {
+        "date" : "26/11/2020",
+        "terms" : [
+            {
+                "time" : "08:00 - 09:40",
+                "instructor" : "Aca",
+                "sport" : "Crossfit",
+                "exercises" : "EMOM 21' 1' 50 DU / 100 SU 2' 1 Power Clean 1 Front Squat 1 Push Press 1 Back Squat 1 Push Press 70/50 3' Rest",
+                "participants" : 12,
+                "reserved" : 12
+            },{
+                "time" : "10:00 - 11:40",
+                "instructor" : "Aca",
+                "sport" : "Crossfit",
+                "exercises" : "EMOM 21' 1' 50 DU / 100 SU 2' 1 Power Clean 1 Front Squat 1 Push Press 1 Back Squat 1 Push Press 70/50 3' Rest",
+                "participants" : 10,
+                "reserved" : 3
+            },{
+                "time" : "12:00 - 13:40",
+                "instructor" : "Aca",
+                "sport" : "Crossfit",
+                "exercises" : "EMOM 21' 1' 50 DU / 100 SU 2' 1 Power Clean 1 Front Squat 1 Push Press 1 Back Squat 1 Push Press 70/50 3' Rest",
+                "participants" : 8,
+                "reserved" : 8
+            },{
+                "time" : "14:00 - 15:40",
+                "instructor" : "Aca",
+                "sport" : "Crossfit",
+                "exercises" : "EMOM 21' 1' 50 DU / 100 SU 2' 1 Power Clean 1 Front Squat 1 Push Press 1 Back Squat 1 Push Press 70/50 3' Rest",
+                "participants" : 20,
+                "reserved" : 12
+            },
+            {
+                "time" : "16:00 - 17:40",
+                "instructor" : "Aca",
+                "sport" : "Crossfit",
+                "exercises" : "EMOM 21' 1' 50 DU / 100 SU 2' 1 Power Clean 1 Front Squat 1 Push Press 1 Back Squat 1 Push Press 70/50 3' Rest",
+                "participants" : 15,
+                "reserved" : 2
+            },
+            {
+                "time" : "21:00 - 22:40",
+                "instructor" : "Aca",
+                "sport" : "Crossfit",
+                "exercises" : "EMOM 21' 1' 50 DU / 100 SU 2' 1 Power Clean 1 Front Squat 1 Push Press 1 Back Squat 1 Push Press 70/50 3' Rest",
+                "participants" : 15,
+                "reserved" : 15
+            }
+        ]
+    }
+]

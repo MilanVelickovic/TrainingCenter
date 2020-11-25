@@ -10,9 +10,6 @@ const Button = (props) => {
         case "signInOption":
             button = <button type="submit" className="Button signIn">Prijavi se</button>;
             break;
-        case "signOutOption":
-            button = <button type="submit" className="Button signOut" onClick={() => props.onClickFunction()}>Odjavi se</button>;
-            break;
         default:
             button = null;
     }

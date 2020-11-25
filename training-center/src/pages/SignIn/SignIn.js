@@ -11,12 +11,15 @@ import usersData from '../../data/users.json';
 
 import './SignIn.css';
 
-import logo from '../../assets/logo/logo.jpg'; 
+import logo from '../../assets/logo/logo.png'; 
 
 const SignIn = (props) => {
 
     let [email, setEmail] = useState("");
     let [password, setPassword] = useState("");
+    let [errorDisplay, setErrorDisplay] = useState(false);
+
+    const error = <p className="error">Email ili lozinka nije tačna.</p>;
 
     function inputChangeHandler(event, element) {
         if (element === "email") {
@@ -47,9 +50,11 @@ const SignIn = (props) => {
         });
 
         if (validation) {
+            setErrorDisplay(false);
             props.setAuthentificationHandler(true);
             props.history.replace('/home');
         } else {
+            setErrorDisplay(true);
             props.setAuthentificationHandler(false);
         }
 
@@ -72,6 +77,7 @@ const SignIn = (props) => {
                         for="password" 
                         value={password}
                         onChangeFunction={inputChangeHandler}/>
+                    {errorDisplay ? error : null}
                     <Button for="signInOption"/>
                 </form>
             </div>

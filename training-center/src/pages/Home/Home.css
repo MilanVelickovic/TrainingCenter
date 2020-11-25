@@ -1,6 +1,9 @@
 .Home {
     width: 100%;
     height: 100vh;
+    margin: 0;
+    padding: 0;
+    background:linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../../assets/background/background1.jfif');
     display: flex;
     justify-content: center;
     align-items: center;
@@ -9,9 +12,9 @@
 
 .Home .navigation {
     width: 80%;
-    height: 65px;
+    height: 80px;
     padding: 0 10%;
-    background-color: #FFF;
+    background-color: #1C1C1C;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -19,29 +22,46 @@
     position: absolute;
     top: 0;
     left: 0;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.5);
 }
 
 .Home .navigation img {
-    width: 10%;
+    width: 50px;
 }
 
 .calendarBox {
-    width: 800px;
-    height: 400px;
-    padding: 50px;
-    background-color: #FFF;
-    border-radius: 20px;
+    width: 960px;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-.message {
+.calendarBox h2 {
     color: #FFF;
+    text-transform: uppercase;
+    margin-bottom: 50px;
 }
 
-.message span {
-    color: rgb(43, 162, 241);
-    text-decoration: underline;
+.Home .navigation span {
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #E41E26;
     cursor: pointer;
+    font-size: 20px;
+    -webkit-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+
+.Home .navigation span:hover {
+    opacity: 0.7;
+}
+
+.react-calendar {
+    width: 100% !important;
 }

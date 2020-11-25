@@ -2,7 +2,8 @@ import * as actionTypes from '../actions/actions';
 import updateObject from '../utility';
 
 const initialState = {
-    authorized: false
+    authorized: false,
+    reservedTerms: []
 };
 
 const reducer = (state = initialState, action) => {

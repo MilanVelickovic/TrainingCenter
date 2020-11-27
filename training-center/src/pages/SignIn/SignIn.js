@@ -78,7 +78,7 @@ const SignIn = (props) => {
                         value={password}
                         onChangeFunction={inputChangeHandler}/>
                     {errorDisplay ? error : null}
-                    <Button for="signInOption"/>
+                    <Button for="signInOption">Prijavi se</Button>
                 </form>
             </div>
         </div>

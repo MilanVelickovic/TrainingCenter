@@ -3,6 +3,8 @@ import { useParams } from 'react-router-dom';
 
 import datesData from "../../data/dates.json";
 
+import Button from '../../components/UI/Button/Button';
+
 import './Details.css';
 
 const Details = (props) => {
@@ -28,7 +30,7 @@ const Details = (props) => {
     let currentTime = currentFullDate.getHours() + ":" + currentFullDate.getMinutes();
 
     if (((formatDate(date) >= currentDate && time.slice(0, 5) >= currentTime) || formatDate(date) > currentDate) && participants > reserved) {
-      return <button>Zakaži</button>;
+      return <Button for="reserveOption">Zakaži</Button>;
     } else {
       return null;
     }
@@ -51,7 +53,7 @@ const Details = (props) => {
                         </div>
                         <div className="buttons">
                           {showOption(date, time, term.participants, term.reserved)}
-                          <button onClick={() => goBack()}>Nazad</button>
+                          <Button for="backOption" onClickFunction={goBack}>Nazad</Button>
                         </div>
                       </>;
           }

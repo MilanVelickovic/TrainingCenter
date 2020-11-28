@@ -47,3 +47,21 @@
 .error {
     color: #E41E26;
 }
+
+@media (max-width: 1100px) {
+    .SignIn .box {
+        width: 80%;
+    }
+}
+
+@media (max-width: 800px) {
+    .SignIn .box {
+        height: auto;
+        justify-content: center;
+        padding: 50px 20px;
+    }
+
+    .SignIn .box .logoHolder  {
+        display: none;
+    }
+}

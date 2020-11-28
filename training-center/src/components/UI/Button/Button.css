@@ -23,3 +23,9 @@
     background: #0f75c9;
     font-size: 16px;
 }
+
+@media(max-width: 450px) {
+    .Button {
+        width: 130px;
+    }
+}

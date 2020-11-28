@@ -28,3 +28,9 @@
     font-weight: 700;
     outline: none;
 }
+
+@media(max-width: 450px) {
+    .Input {
+        width: 270px;
+    }
+}
